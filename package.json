@@ -1,0 +1,32 @@
+{
+  "name": "tdd-to-do",
+  "version": "1.0.0",
+  "description": "To-do app to practice TDD",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LauraCole1900/tdd-to-do.git"
+  },
+  "keywords": [
+    "test",
+    "tdd",
+    "to-do"
+  ],
+  "author": "Laura E. Cole",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LauraCole1900/tdd-to-do/issues"
+  },
+  "homepage": "https://github.com/LauraCole1900/tdd-to-do#readme",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "graphql-config": "^4.3.0"
+  }
+}

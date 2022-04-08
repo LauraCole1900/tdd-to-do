@@ -1,0 +1,28 @@
+{
+  "name": "tdd-to-do-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "author": "Laura E. Cole",
+  "license": "MIT",
+  "devDependencies": {
+    "graphql-config": "^4.3.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "apollo-graphql": "^0.9.6",
+    "apollo-server-core": "^3.6.7",
+    "apollo-server-express": "^3.6.7",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.10"
+  }
+}
