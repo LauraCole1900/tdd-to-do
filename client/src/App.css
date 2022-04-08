@@ -12,6 +12,14 @@ body {
   padding-top: 10px;
 }
 
+h1 {
+  color: var(--gold);
+}
+
+p {
+  color: var(--gold);
+}
+
 .button {
   color: var(--gold);
   background-color: var(--darkRed);
